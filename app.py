@@ -80,11 +80,11 @@ div.stButton > button:hover {
 }
 
 .desc-box {
-    background-color: #eff6ff;
+    background-color: rgba(59, 130, 246, 0.1);
     border-left: 5px solid #3b82f6;
     padding: 15px;
     border-radius: 8px;
-    color: #1e293b !important;
+    color: inherit !important;
     margin-bottom: 20px;
     font-family: sans-serif;
 }
