@@ -15,7 +15,7 @@ This project focuses on exploring Day-Ahead Market (GÖP), Intra-Day Market (Gİ
 - **Language:** Python 3.x
 - **UI & Visualization:** `streamlit`, `plotly`
 - **Data Analysis & Manipulation:** `pandas`, `numpy`
-- **Machine Learning:** `scikit-learn` (Random Forest, etc.)
+- **Machine Learning:** `scikit-learn` 
 
 ## 📊 Data Source & Citation
 
