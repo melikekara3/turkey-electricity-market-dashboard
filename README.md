@@ -1,4 +1,4 @@
-# Turkey Electricity Market Dashboard & Forecasting ⚡📊
+# Turkey Electricity Market Dashboard & Forecasting 
 
 An interactive **Streamlit** analytics dashboard application developed to analyze, visualize, and forecast historical prices and electricity consumption trends in the Turkish Electricity Market using machine learning models.
 
@@ -21,7 +21,7 @@ This project focuses on exploring Day-Ahead Market (GÖP), Intra-Day Market (Gİ
 
 The historical electricity market data used in this project is sourced from a public dataset available on **Kaggle**, covering Turkey's power consumption, generation, and pricing trends between 2018 and 2023.
 
-*   **Dataset Link:** [Energy Consumption and Pricing Türkiye (2018-2023)](https://www.kaggle.com/datasets/ahmetzamanis/energy-consumption-and-pricing-trkiye2018-2023)
+*   **Dataset Link:** https://www.kaggle.com/datasets/ahmetzamanis/energy-consumption-and-pricing-trkiye-2018-2023
 *   **Citation:** Zamanis, A. (2024). *Energy Consumption and Pricing Türkiye (2018-2023)*. Kaggle.
 
 ## 📦 Installation & Setup
@@ -29,11 +29,9 @@ The historical electricity market data used in this project is sourced from a pu
 Follow these steps to set up and run the project locally on your machine:
 
 ### 1. Clone the Repository
-bash
 git clone https://github.com/melikekara3/turkey-electricity-market-dashboard.git
 cd turkey-electricity-market-dashboard
 ### 2. Create and Activate a Virtual Environment (Recommended)
-Bash
 python -m venv venv
 # For Windows:
 venv\Scripts\activate
@@ -42,5 +40,4 @@ source venv/bin/activate
 ### 3. Install Dependencies
 pip install -r requirements.txt
 ### 4. Run the Application
-
 streamlit run app.py
