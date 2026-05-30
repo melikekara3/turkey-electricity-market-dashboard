@@ -194,7 +194,7 @@ with tab1:
         """, unsafe_allow_html=True)
 
     st.divider()
-    st.subheader("🌡️ Consumption Density Analysis (Hour vs. Day)")
+    st.subheader("🌡️ 3.Consumption Density Analysis (Hour vs. Day)")
     st.write("This chart shows the 'Hot Spots' where consumption is most intense on a weekly and hourly basis.")
 
     heatmap_data = df_f.groupby(['day_of_week', 'hour'])['consumption_MWh'].mean().unstack()
@@ -222,7 +222,7 @@ with tab1:
         </div>
         """, unsafe_allow_html=True)
 
-    st.subheader("⚡ Source-Based Production Panorama")
+    st.subheader("⚡ 4.Source-Based Production Panorama")
 
     f_col1, f_col2 = st.columns([2, 1])
 
